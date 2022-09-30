@@ -36,12 +36,16 @@ body {
     justify-content: center;
 
     flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .top-text {
     width: 200px;
+    min-width: 200px;
     padding-left: 20px;
     color: white;
+
+    align-self: center;
 
     flex-grow: 0;
     flex-shrink: 1;
@@ -50,9 +54,11 @@ body {
 .top-section
 img {
     border: 5px solid black;
-    width: 500px;
-    height: 500px;
-    margin: 25px;
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+
+    align-self: center;
 
     flex-grow: 0;
     flex-shrink: 1;
@@ -73,6 +79,7 @@ button {
     flex-direction: column;
 
     flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .second-section
@@ -119,6 +126,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 h2 {
@@ -144,6 +154,9 @@ p {
     flex-wrap: wrap;
 
     color: white;
+
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .footer {
@@ -153,6 +166,9 @@ p {
     align-items: center;
 
     color: white;
+
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 a {
