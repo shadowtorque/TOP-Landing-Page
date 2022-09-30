@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #5191B1;
+    display: flex;
+    border: 2px solid red;
+}
+
+.logo {
+    max-width: 400px;
+    max-height: 200px;
+    
+    display: flex;
+    flex-shrink: 1;
+}
+
+.header-links
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+}
