@@ -94,6 +94,8 @@ h1 {
 .bakery-gallery {
     display: flex;
     flex-shrink: 1;
+
+    flex-wrap: wrap;
 }
 
 .bakery-gallery-items {
